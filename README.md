@@ -8,3 +8,5 @@ vim weather_bot/configs/bot.yaml # insert your tokens for telegram bot & yandex 
 ./make.sh build
 ./make.sh run
 ```
+## Example
+![example](/example.png?raw=true "example")
