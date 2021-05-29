@@ -1,0 +1,31 @@
+bot:
+  token: xxx
+weather:
+  api_url: https://api.weather.yandex.ru/v2/informers
+  token: xxx
+  lang: ru_RU
+  dangerous_conditions_decodings:
+    drizzle: морось
+    light-rain: небольшой дождь
+    rain: дождь
+    moderate-rain: умеренно сильный дождь
+    heavy-rain: сильный дождь
+    continuous-heavy-rain: длительный сильный дождь
+    showers: ливень
+    wet-snow: дождь со снегом
+    light-snow: небольшой снег
+    snow: снег
+    snow-showers: снегопад
+    hail: град
+    thunderstorm: гроза
+    thunderstorm-with-rain: дождь с грозой
+    thunderstorm-with-hail: гроза с градом
+  forecast_parts_decondings:
+    night: Ночью
+    morning: Утром
+    day: Днем
+    evening: Вечером
+  places:
+    - name: москва
+      lat: 55.759465
+      lon: 37.664240
